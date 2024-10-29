@@ -19,7 +19,7 @@ import {motion} from 'framer-motion'
 
 const Navigation = () => {
   return (
-    <nav className="  h-[150px] border-b border-white bg-gray-800  flex justify-between  p-10
+    <nav className="  h-[150px] border-b border-white bg-gray-800  flex justify-between  items-center p-10
     fixed  w-full z-10
     ">
     <motion.div 
@@ -34,7 +34,7 @@ const Navigation = () => {
       duration:2
     }}
     >
-      <Link id="rizvi-name" href="/" className=" text-5xl sm:text-6xl  font-bold text-white no-underline">
+      <Link id="rizvi-name" href="/" className=" text-[4.5vh] sm:text-6xl  font-bold text-white no-underline">
         M.Abrar Rizvi <span id="rizvi" className="text-blue-500">.</span>
       </Link>
     </motion.div>

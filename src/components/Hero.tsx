@@ -18,15 +18,15 @@ const Hero = () => {
           duration:2,
           delay:1
         }}
-        className=" pt-12 text-[7vh] sm:text-[10vh] md:text-6xl lg:text-8xl font-black text-center text-red-300
+        className=" pt-12 text-[4vh] sm:text-[10vh] md:text-6xl lg:text-8xl font-black text-center text-red-300
        
         ">
-          <span className="text-blue-500 mr-8 ">Front-End</span>
+          <span className="text-blue-500 mr-2 ">Front-End</span>
           Developer
         </motion.h1>
         {/* paragraph */}
-        <div className="my-6 sm:my-8 mx-auto px-12 ">
-          <p className="text-white text-3xl  leading-relaxed">
+        <div className="my-6 sm:my-8 mx-auto px-2 ">
+          <p className="text-white  text-2xl  leading-relaxed">
             Front-end developers turn static designs into engaging digital experiences, mastering HTML, CSS, and JavaScript to create responsive, interactive interfaces. Their expertise ensures that websites not only look stunning but also perform seamlessly across all devices.
           </p>
         </div>
