@@ -19,46 +19,51 @@ import {motion} from 'framer-motion'
 
 const Navigation = () => {
   return (
-    <nav className="  h-[150px] border-b border-white bg-gray-800  flex justify-between  items-center p-10
-    fixed  w-full z-10
-    ">
-    <motion.div 
-    initial={{x:-30,
+    <motion.nav
+    initial={{x:-250,
       opacity:0
     }}
     animate={{x:0,
       opacity:1,
-      rotate:360
+     
     }}
-    transition={{
-      duration:2
-    }}
+
+
+    className="overflow-hidden  h-[150px] border-b border-white bg-[#ABBA7C]  flex justify-between  items-center p-10
+    fixed  w-full z-10
+    ">
+    <motion.div 
+   
+  
     >
-      <Link id="rizvi-name" href="/" className=" text-[4.5vh] sm:text-6xl  font-bold text-white no-underline">
+      <Link id="rizvi-name" href="/" className=" text-[4.5vh] sm:text-6xl  font-bold text-black no-underline">
         M.Abrar Rizvi <span id="rizvi" className="text-blue-500">.</span>
       </Link>
     </motion.div>
 
     <motion.div 
-     initial={{x:-30,
+     initial={{y:-330,
       opacity:0
     }}
-    animate={{x:0,
-      opacity:1
+    animate={{y:0,
+      opacity:1,
+      rotate:360
     }}
     transition={{
-      duration:2
+     
+      delay:1
     }}
+
 
 
     id="links" className="hidden md:w-[50%]   lg:flex lg:justify-center items-center space-x-5 text-lg">
-      <Link className="anchor text-xl text-white font-extrabold no-underline hover:text-cornflowerblue" href="/">
+      <Link className="anchor text-xl text-black font-extrabold no-underline hover:text-cornflowerblue" href="/">
         Portfolio.
       </Link>
-      <Link className="anchor text-xl text-white font-extrabold no-underline hover:text-cornflowerblue" href="/about">
+      <Link className="anchor text-xl text-black font-extrabold no-underline hover:text-cornflowerblue" href="/about">
         About Us
       </Link>
-      <Link className="anchor text-xl text-white font-extrabold no-underline hover:text-cornflowerblue" href="/contact">
+      <Link className="anchor text-xl text-black font-extrabold no-underline hover:text-cornflowerblue" href="/contact">
         Get in Touch
       </Link>
      
@@ -85,7 +90,7 @@ const Navigation = () => {
   </SheetContent>
 </Sheet>
     
-  </nav>
+  </motion.nav>
   
   )
 }

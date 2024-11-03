@@ -24,7 +24,7 @@ export default function App() {
           
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper w-full  md:w-[70%] mx-auto bg-gray-950 text-white  rounded-[20px] mt-10"
+        className="mySwiper w-full  md:w-[70%] mx-auto bg-[#F09319] text-white  rounded-[20px] mt-10"
       >
         <SwiperSlide className='w-[70%] h-[300px] '>
        <div className='flex flex-col justify-center items-center p-10 '>
