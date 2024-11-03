@@ -29,7 +29,7 @@ const Hero = () => {
           <motion.p className="text-white  text-2xl  leading-relaxed"
           initial={{y:220, opacity: 0}}
           animate={{y:0, opacity:1}}
-          transition={{delay:2, type: "spring", stiffness:500}}
+          transition={{delay:2, type: "spring", stiffness:120}}
           >
             Front-end developers turn static designs into engaging digital experiences, mastering HTML, CSS, and JavaScript to create responsive, interactive interfaces. Their expertise ensures that websites not only look stunning but also perform seamlessly across all devices.
           </motion.p>
