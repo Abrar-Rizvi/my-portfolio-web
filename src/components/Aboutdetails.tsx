@@ -5,7 +5,7 @@ const Aboutdetails = () => {
     
    <>
   
-    <div className=" bg-black py-44 px-6 lg:px-16 flex flex-col-reverse justify-center
+    <div className=" bg-[#3D5300] py-44 px-6 lg:px-16 flex flex-col-reverse justify-center
     lg:flex lg:flex-row lg:justify-center items-center  ">
         
         <div className="text text-white mt-6 lg:px-2 lg:w-[70%] lg:h-[70%]  ">

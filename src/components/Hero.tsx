@@ -37,11 +37,11 @@ const Hero = () => {
         <div className="flex justify-center my-12">
           <input
             type="text"
-            className="w-72  px-4 bg-transparent mt-12 outline-none shadow-none border border-white"
+            className="w-72  px-4 bg-transparent mt-6 outline-none shadow-none border border-white"
             placeholder="Email address"
           />
           <button
-            className="w-56 h-14 bg-red-600 text-white rounded-md mt-12 ml-2 text-xl relative"
+            className="w-56 h-14 bg-[#c5b224] text-white rounded-md mt-6 ml-2 text-2xl relative"
           >
             Get Started
           </button>
